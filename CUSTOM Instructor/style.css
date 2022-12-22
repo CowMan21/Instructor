@@ -1,0 +1,63 @@
+/*#CONSOLE{
+  margin: 15px;
+  padding: 15px;
+  color: rgb(142, 211, 38);
+  background-color: black;
+}*/
+
+textarea{
+  resize: none;
+  width: 90%;
+}
+
+div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#SCRIPTAREA, #SCRIPTLINES{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#SCRIPTAREA:focus-visible, #SCRIPTLINES:focus-visible {
+    outline: none;
+}
+
+
+#SCRIPTLINES{
+  display: flex;
+  overflow-y: hidden;
+  text-align: right;
+  position: absolute;
+  outline: none;
+  width: 2rem;
+  background-color: lightgrey;
+  color: blue;
+}
+
+#SCRIPTAREA{
+  padding-left: 2.5rem;
+}
+
+#FILEBAR{
+  background-color: lightgrey;
+}
+
+#CONSOLE{
+  background-color: #f8f8f8;
+  border-color: #858585;
+  border-width: 1px;
+  border-style: solid;
+  width: 90%;
+  height: auto;
+  padding: 2px;
+  font-family: monospace;
+}
+
+/*Syntax*/
+
+#ERRORMESSAGE{
+  color:red;
+}
